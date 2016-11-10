@@ -1,11 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var Container = require('./views/Container.jsx');
+
 var Index = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>Hey</h1>
+        <Container />
       </div>
     );
   }
