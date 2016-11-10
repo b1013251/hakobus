@@ -15,10 +15,15 @@
     "react-router": "^3.0.0"
   },
   "devDependencies": {
+    "async": "^2.1.2",
     "babel-core": "^6.18.2",
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
+    "cheerio": "^0.22.0",
     "gulp": "^3.0.1",
+    "iconv-lite": "^0.4.13",
+    "request": "^2.78.0",
+    "requestify": "^0.2.5",
     "vinyl-source-stream": "^1.1.0"
   }
 }
