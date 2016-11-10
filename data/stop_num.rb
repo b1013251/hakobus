@@ -38,6 +38,7 @@ File.open('stop_num.csv', 'w') do |file|
       file.puts node.attribute('value').value + "," + node.inner_text
     end
 
+    # サーバ負荷を考えて3秒待つ
     sleep(3)
   end
 end
