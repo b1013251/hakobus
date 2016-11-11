@@ -1,18 +1,20 @@
 var React = require('react');
 
-var Getonoff = require('./Getonoff.jsx')
+var Getonoff = require('./Getonoff.jsx');
+var Select   = require('./Select.jsx');
+var Result   = require('./Result.jsx')
 
 var Container = React.createClass({
   getInitialState: function() {
     return {
-      inStop : 0,
-      outStop: 0
+      inStop : 165,
+      outStop: 149
     };
   },
   render: function() {
     return (
       <div>
-        <Getonoff inStop={this.state.inStop} outStop={this.state.outStop} />
+        <Result />
       </div>
     );
   }
